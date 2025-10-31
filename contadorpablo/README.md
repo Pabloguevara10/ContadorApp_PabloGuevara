@@ -1,16 +1,15 @@
 # contadorpablo
 
-A new Flutter project.
+Esta es una aplicación móvil simple creada como parte de una evaluación académica. La app implementa un contador básico y demuestra el manejo de estado, la navegación entre pantallas y un diseño personalizado en Flutter.
 
-## Getting Started
+¡Hola! Soy Pablo Guevara.
 
-This project is a starting point for a Flutter application.
+Actualmente soy estudiante de Sexto Trimestre de la carrera de "Ingeniería en Sistemas" en La Universidad de Margarita o también conocida como "UNIMAR"
 
-A few resources to get you started if this is your first Flutter project:
+Este proyecto fue desarrollado para la materia de Programación 3, con el objetivo de aplicar y demostrar los conocimientos fundamentales de Flutter adquiridos en clase.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Puedes contactarme a través de:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Email Institucional: pguevara.3721@unimar.edu.ve
+Email Personal: pabloguevarae2020@gmail.com
+
