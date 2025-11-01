@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Text(
               '$_contador',
               //DisplayLarge sirve como estilo grande para números
-              style: textStyles.displayLarge,
+              style: Theme.of(context).textTheme.displayLarge,
             ),
           ],
         ),
@@ -97,6 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             // Botón de Sumar
             FloatingActionButton(
+              heroTag: null,
               onPressed: _sumar,
               tooltip: 'Sumar 1',
               child: const Icon(Icons.add),
@@ -105,6 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             // Botón de Restar
             FloatingActionButton(
+              heroTag: null,
               onPressed: _restar,
               tooltip: 'Restar 1',
               child: const Icon(Icons.remove),
@@ -113,6 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             // Botón de Multiplicar
             FloatingActionButton(
+              heroTag: null,
               onPressed: _multiplicar,
               tooltip: 'Multiplicar x2',
               // Usamos un Texto para 'x2'
@@ -122,6 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             // Botón de Dividir
             FloatingActionButton(
+              heroTag: null,
               onPressed: _dividir,
               tooltip: 'Dividir /2',
               // Usamos un Texto para '/2'
@@ -131,6 +135,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             // Botón de Resetear
             FloatingActionButton(
+              heroTag: null,
               onPressed: _resetear,
               tooltip: 'Resetear',
               // Le ponemos un color de fondo diferente para destacarlo

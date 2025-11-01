@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../main.dart'; // Importamos main.dart para usar los colores
+import '../designs/designer.dart';
 
 class InfoScreen extends StatelessWidget {
   const InfoScreen({super.key});
@@ -20,7 +20,7 @@ class InfoScreen extends StatelessWidget {
               const Icon(
                 Icons.gamepad_sharp,
                 size: 100,
-                color: MyApp.xboxLightGreen,
+                color: Designer.xboxLightGreen,
               ),
               const SizedBox(height: 20),
               
@@ -36,7 +36,7 @@ class InfoScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
-                  color: MyApp.xboxLightGreen,
+                  color: Designer.xboxLightGreen,
                 ),
               ),
             
@@ -58,7 +58,7 @@ class InfoScreen extends StatelessWidget {
                 },
                 label: const Text('Regresar', style: TextStyle(fontSize: 18)),
                 icon: const Icon(Icons.arrow_back),
-                backgroundColor: MyApp.xboxLightGreen,
+                backgroundColor: Designer.xboxLightGreen,
                 foregroundColor: Colors.black,
               ),
             ],
